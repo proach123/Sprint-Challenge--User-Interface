@@ -211,3 +211,52 @@ nav a{
 
 /* Now for the about page */
 
+.about-summary{
+    font-weight: bold;
+    padding: 2.5%;
+    border-bottom: 1px dashed black;
+}
+
+.aboutcards{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.about-info-card{
+    display: flex;
+	flex-wrap: wrap;
+	width: 48%;
+	height: 30%;
+	border-bottom: 1px dashed black;
+	justify-content: left;
+    margin: 1% auto;
+    padding: 1%;
+}
+
+.about-info-card p{
+    font-weight: bold;
+}
+
+.about-info-card h2{
+    font-weight: bold;
+}
+
+.about-info-card button{
+    margin: 1%;
+    background: white;
+    border: 2px solid black;
+    height: 40px;
+    width: 125px;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.bottom-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin: 3%;
+}
