@@ -271,3 +271,33 @@ nav a{
     font-weight: bold;
     margin: 3%;
 }
+
+/* stretch goals */
+
+@keyframes navshift {
+    0% {background-color:white ;}
+    25% {background-color:lightpink ;}
+    50% {background-color:red ;}
+    75% {background-color: lightpink;}
+    100% {background-color: white;}
+  }
+
+  header{
+      animation-name: navshift;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+  }
+  
+  @keyframes buttonshift {
+    0% {background-color:white ;}
+    25% {background-color:lightpink ;}
+    50% {background-color:red ;}
+    75% {background-color: lightpink;}
+    100% {background-color: white;}
+  }
+
+  button{
+      animation-name: buttonshift;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+  }
