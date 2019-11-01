@@ -144,3 +144,70 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+    align-content: stretch;
+    margin: 0 auto;
+    width: 800px;
+}
+
+nav {display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: 80px;
+}
+nav a{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    width: 20%;
+    margin: 5%;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+
+
+
+/* Now for the about page */
+
